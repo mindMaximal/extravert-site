@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<main class="main">
+
+		<div class="menu flex flex--column flex--align-end">
+
+			<div class="logo menu__logo">
+				<object
+					type="image/svg+xml"
+					data="img/icons/logo.svg">
+					<img src="img/icons/logo.png" alt="Logo">
+				</object>
+			</div>
+
+			<nav class="menu__nav font--bold flex flex--end">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="#home" class="menu__link link link--decorated color--white">Главная</a>
+					</li>
+					<li class="menu__item">
+						<a href="#services" class="menu__link link link--decorated color--white">Услуги</a>
+					</li>
+					<li class="menu__item">
+						<a href="#news" class="menu__link link link--decorated color--white">Новости</a>
+					</li>
+					<li class="menu__item">
+						<a href="#about" class="menu__link link link--decorated color--white">Галерея</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link link link--decorated color--white">Отзывы</a>
+					</li>
+					<li class="menu__item">
+						<a href="#footer" class="menu__link link link--decorated color--white">Контакты</a>
+					</li>
+					<li class="menu__item">
+						<a href="#popup-contacts-form" class="menu__link popup-trigger link link--decorated color--white">Заказать звонок</a>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="content">
+
+			<header class="header header--mobile hidden--desktop flex flex--space-between flex--align-center">
+
+				<button class="header__button menu__button"><span class="burger"></span> Меню</button>
+
+				<div class="logo header__logo">
+					<object
+						type="image/svg+xml"
+						data="img/icons/logo.svg">
+						<img src="img/icons/logo.png" alt="Logo">
+					</object>
+				</div>
+
+				<a href="tel:+739521111111" class="header__link font--bold">+7(3952)111-11-11</a>
+				
+			</header>
+
+			<article class="home " id="home">
+
+				<header class="home__header header flex flex--align-start flex--space-between">
+					<div class="logo header__logo">
+						<object
+							type="image/svg+xml"
+							data="img/icons/logo--big.svg">
+							<img src="img/icons/logo--big.png" alt="Logo">
+						</object>
+					</div>
+					<a href="tel:+739521111111" class="header__link font--bold hidden--tablet hidden--mobile">+7(3952)111-11-11</a>
+				</header>
+
+				<h1 class="home__title">ТЕРРИТОРИЯ <br class="hidden--mobile"> ИГРЫ И ПРАЗДНИКА <br class="hidden--mobile"> В ИРКУТСКЕ</h1>
+
+				<div class="home__links font--rubik">
+					<a href="#" class="home__link link link--decorated-both border--red color--red">
+						КАРТИНГ					
+					</a>
+					<a href="#" class="home__link link link--decorated-both border--green color--green">
+						ПЕЙНТБОЛ
+					</a>
+					<a href="#" class="home__link link link--decorated-both border--blue color--blue">
+						КВЕСТЫ
+					</a>
+				</div>
+
+			</article>
+
+			<article class="services flex flex--wrap" id="services">
+
+				<div class="services__item services__item--orange">
+					<div class="services__img">
+						<img src="img/services/paintball.jpg" alt="Photo">
+					</div>
+
+					<a href="#" class="services__link link link--decorated color--white font--bold">
+						ПЕЙНТБОЛ
+					</a>
+				</div>
+
+				<div class="services__item services__item--blue">
+					<div class="services__img">
+						<img src="img/services/carting.jpg" alt="Photo">
+					</div>
+
+					<a href="#" class="services__link link link--decorated color--white font--bold">
+						КАРТИНГ
+					</a>
+				</div>
+
+				<div class="services__item services__item--green">
+					<div class="services__img">
+						<img src="img/services/quest.jpg" alt="Photo">
+					</div>
+
+					<a href="#" class="services__link link link--decorated color--white font--bold">
+						КВЕСТЫ
+					</a>
+				</div>
+
+				<div class="services__item services__item--yellow">
+					<div class="services__img">
+						<img src="img/services/party.jpg" alt="Photo">
+					</div>
+
+					<a href="#" class="services__link link link--decorated color--white font--bold">
+						ВЕЧЕРИНКИ
+					</a>
+				</div>
+
+				<div class="services__item services__item--red">
+					<div class="services__img">
+						<img src="img/services/lasertag.jpg" alt="Photo">
+					</div>
+
+					<a href="#" class="services__link link link--decorated color--white font--bold">
+						ЛАЗЕРТАГ
+					</a>
+				</div>
+
+				<div class="services__item services__item--purple">
+					<div class="services__img">
+						<img src="img/services/aerohockey.jpg" alt="Photo">
+					</div>
+
+					<a href="#" class="services__link link link--decorated color--white font--bold">
+						АЭРОХОККЕЙ
+					</a>
+				</div>
+
+			</article>
+
+			<article class="about font--rubik" id="about">
+
+				<div class="about__wrapper">
+
+					<h2 class="about__title title--base">О нас</h2>
+
+					<div class="about__quote flex flex--align-center">
+						<object
+							class="about__logo"
+							type="image/svg+xml"
+							data="img/icons/logo.svg">
+							<img src="img/icons/logo.png" alt="Logo">
+						</object>
+						- территория семьи, детей, взрослых!
+					</div>
+
+					<p class="about__text">
+						Мы знаем, как объединить большое количество друзей на Дне рождении, если они никогда не встречались ранее. Нам знакомы секреты организации эффективного тимбилдинга, который станет полезным и запоминающимся для каждого сотрудника. 
+					</p>
+
+					<div class="flex flex--tablet-column">
+
+						<div class="about__info">
+
+							<div class="about__text-block">
+								<span class="font--minus">МЫ СОЗДАВАЛИ ПРАЗДНИК ДЛЯ КОМПАНИЙ</span> <br class="hidden--tablet">
+								ДО <span class="color--blue font--plus">120</span> ЧЕЛОВЕК
+							</div>
+
+							<div class="about__text-block">
+								В НАШЕЙ КОПИЛКЕ БОЛЕЕ <br class="hidden--tablet">
+								<span class="color--red font--plus">2000</span> <span class="font--minus"> СОБЫТИЙ САМОГО РАЗНОГО УРОВНЯ</span>
+							</div>
+							
+							<div class="about__text-block">
+								В НАШЕМ РАСПИСАНИИ ДОСТУПНЫ ИГРЫ <br class="hidden--tablet">
+								с <span class="color--green font--plus">10.00</span> до <span class="color--green font--plus">22.00</span> <span class="font--minus">7 дней в неделю</span>
+							</div>
+
+						</div>
+
+						<div class="about__slider slider glide">
+							<div class="glide__track" data-glide-el="track">
+
+								<div class="about__slides glide__slides">
+
+									<div class="glide__slide">
+										<div class="slider__item about__item">
+											<img src="img/about/image1.jpg" alt="Photo">
+										</div>
+									</div>
+
+									<div class="glide__slide">
+										<div class="slider__item about__item">
+											<img src="img/about/image1.jpg" alt="Photo">
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="about__control">
+
+					<div class="about__arrows flex">
+
+						<button class="about__arrow about__arrow--prev slider__arrow">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M10.8893 22.0188L35.8781 22.0188L35.8781 17.5792L10.8894 17.5791L9.07872 17.5791L10.359 16.2988L18.7383 7.91955L15.8392 5.02043L1.0606 19.799L15.8391 34.5775L18.7382 31.6784L10.359 23.2992L9.07865 22.0188L10.8893 22.0188Z" stroke="white" stroke-width="1.5"/>
+							</svg>
+						</button>
+	
+						<button class="about__arrow about__arrow--next slider__arrow">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M29.7007 22.0188L4.71195 22.0188L4.71195 17.5792L29.7007 17.5791L31.5113 17.5791L30.231 16.2988L21.8518 7.91955L24.7509 5.02043L39.5294 19.799L24.7509 34.5775L21.8518 31.6784L30.2311 23.2992L31.5114 22.0188L29.7007 22.0188Z" fill="white" stroke="white" stroke-width="1.5"/>
+							</svg>
+						</button>
+
+					</div>
+
+				</div>
+
+			</article>
+
+			<article class="territory" id="home">
+
+				<h2 class="territory__title title--base">У нас есть все для Вашего праздника</h2>
+
+				<div class="territory__wrapper flex flex--wrap flex--center">
+
+					<div class="territory__item place-item place-item--blue">
+						<div class="place-item__icon">
+							<object
+								type="image/svg+xml"
+								data="img/territory/stadium.svg">
+								<img src="img/territory/stadium.png" alt="Icon">
+							</object>
+						</div>
+						<div class="place-item__title font--rubik">ТЕРРИТОРИЯ КВЕСТОВ</div>
+						<ul class="place-item__list">
+							<li class="place-item__point">Оно</li>
+							<li class="place-item__point">Fallout</li>
+							<li class="place-item__point">Прятки</li>
+							<li class="place-item__point">Пиратский корабль</li>
+						</ul>
+					</div>
+	
+					<div class="territory__item place-item place-item--red">
+						<div class="place-item__icon">
+							<object
+								type="image/svg+xml"
+								data="img/territory/paintball.svg">
+								<img src="img/territory/paintball.png" alt="Icon">
+							</object>
+						</div>
+						<div class="place-item__title font--rubik">ТЕРРИТОРИЯ ОТКРЫТИЙ</div>
+						<ul class="place-item__list">
+							<li class="place-item__point">Пейнтбол</li>
+							<li class="place-item__point">Лазертаг</li>
+							<li class="place-item__point">Страйкбол</li>
+							<li class="place-item__point">Стрельба с холостого оружия</li>
+						</ul>
+					</div>
+	
+					<div class="territory__item place-item place-item--green">
+						<div class="place-item__icon">
+							<object
+								type="image/svg+xml"
+								data="img/territory/karting.svg">
+								<img src="img/territory/karting.png" alt="Icon">
+							</object>
+						</div>
+						<div class="place-item__title font--rubik">ТЕРРИТОРИЯ ДРАЙВА</div>
+						<ul class="place-item__list">
+							<li class="place-item__point">Картинг</li>
+							<li class="place-item__point">Sony Playstation</li>
+							<li class="place-item__point">VR</li>
+							<li class="place-item__point">Аэрохоккей</li>
+							<li class="place-item__point">Just Dance</li>
+						</ul>
+					</div>
+	
+					<div class="territory__item place-item place-item--green">
+						<div class="place-item__icon">
+							<object
+								type="image/svg+xml"
+								data="img/territory/eat.svg">
+								<img src="img/territory/eat.png" alt="Icon">
+							</object>
+						</div>
+						<div class="place-item__title font--rubik">ТЕРРИТОРИЯ ВКУСНОЙ
+							ЕДЫ</div>
+						<ul class="place-item__list">
+							<li class="place-item__point">Кафе</li>
+							<li class="place-item__point">Банкетные залы</li>
+						</ul>
+					</div>
+	
+					<div class="territory__item place-item place-item--red">
+						<div class="place-item__icon">
+							<object
+								type="image/svg+xml"
+								data="img/territory/confetti.svg">
+								<img src="img/territory/confetti.png" alt="Icon">
+							</object>
+						</div>
+						<div class="place-item__title font--rubik">ТЕРРИТОРИЯ ВЕЧЕРИНОК</div>
+						<ul class="place-item__list">
+							<li class="place-item__point">Оно</li>
+							<li class="place-item__point">Fallout</li>
+							<li class="place-item__point">Прятки</li>
+							<li class="place-item__point">Пиратский корабль</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<a href="#popup-contacts-form" class="territory__link popup-trigger link link--blue">СОБРАТЬ ИНДИВИДУАЛЬНУЮ <br> ПРОГРАММУ</a>
+
+			</article>
+
+			<article class="news" id="news" >
+
+				<h2 class="news__title title--base">
+					Новости
+					<object
+						class="news__logo"
+						type="image/svg+xml"
+						data="img/icons/logo.svg">
+						<img src="img/icons/logo.png" alt="Logo">
+					</object>
+				</h2>
+
+				<div class="news__slider slider">
+
+					<div class="slider__track glide__track" data-glide-el="track">
+
+						<div class="slider__slides flex glide__slides">
+
+							<div class="glide__slide">
+								<div class="news__item news__item--red slider__item">
+									<div class="slider__title font--bold">
+										<span class="slider__number">12</span>Января 2020
+									</div>
+									<div class="slider__img">
+										<a href="#">
+											<img src="img/news//news1.jpg" alt="Photo">
+										</a>
+									</div>
+									<a href="#" class="slider__link flex flex--space-between flex--align-center">
+										<div class="slider__text font--bold">
+											Чемпионы  клуба 
+											Extra Vert в январе 2020
+										</div>
+										<svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.86068 0.71045L8.7264 0.551763H8.51852H2H1.0335L1.65784 1.28955L14.4513 16.4078L1.65611 31.7124L1.04101 32.4481H2H8.51852H8.72802L8.8624 32.2874L21.8994 16.6935L22.1413 16.4043L21.8977 16.1165L8.86068 0.71045Z" stroke="white" stroke-width="0.896474"/>
+											<path d="M21.9043 0.718341L21.7697 0.551763H21.5556H15.3334H14.3951L14.9847 1.28166L27.203 16.4077L14.983 31.7203L14.4022 32.4481H15.3334H21.5556H21.7714L21.9059 32.2795L34.3504 16.6856L34.5749 16.4043L34.3487 16.1243L21.9043 0.718341Z" stroke="white" stroke-width="0.896474"/>
+										</svg>								
+									</a>
+								</div>
+							</div>
+		
+							<div class="glide__slide">
+								<div class="news__item news__item--green slider__item">
+									<div class="slider__title font--bold">
+										<span class="slider__number">30</span>Января 2020
+									</div>
+									<div class="slider__img">
+										<a href="#">
+											<img src="img/news//news1.jpg" alt="Photo">
+										</a>
+									</div>
+									<a href="#" class="slider__link flex flex--space-between flex--align-center">
+										<div class="slider__text font--bold">
+											Чемпионы  клуба 
+											Extra Vert в январе 2020
+										</div>
+										<svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.86068 0.71045L8.7264 0.551763H8.51852H2H1.0335L1.65784 1.28955L14.4513 16.4078L1.65611 31.7124L1.04101 32.4481H2H8.51852H8.72802L8.8624 32.2874L21.8994 16.6935L22.1413 16.4043L21.8977 16.1165L8.86068 0.71045Z" stroke="white" stroke-width="0.896474"/>
+											<path d="M21.9043 0.718341L21.7697 0.551763H21.5556H15.3334H14.3951L14.9847 1.28166L27.203 16.4077L14.983 31.7203L14.4022 32.4481H15.3334H21.5556H21.7714L21.9059 32.2795L34.3504 16.6856L34.5749 16.4043L34.3487 16.1243L21.9043 0.718341Z" stroke="white" stroke-width="0.896474"/>
+										</svg>								
+									</a>
+								</div>
+							</div>
+		
+							<div class="glide__slide">
+								<div class="news__item news__item--blue slider__item">
+									<div class="slider__title font--bold">
+										<span class="slider__number">2</span>Февраля 2020
+									</div>
+									<div class="slider__img">
+										<a href="#">
+											<img src="img/news//news1.jpg" alt="Photo">
+										</a>
+									</div>
+									<a href="#" class="slider__link flex flex--space-between flex--align-center">
+										<div class="slider__text font--bold">
+											Чемпионы  клуба 
+											Extra Vert в январе 2020
+										</div>
+										<svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.86068 0.71045L8.7264 0.551763H8.51852H2H1.0335L1.65784 1.28955L14.4513 16.4078L1.65611 31.7124L1.04101 32.4481H2H8.51852H8.72802L8.8624 32.2874L21.8994 16.6935L22.1413 16.4043L21.8977 16.1165L8.86068 0.71045Z" stroke="white" stroke-width="0.896474"/>
+											<path d="M21.9043 0.718341L21.7697 0.551763H21.5556H15.3334H14.3951L14.9847 1.28166L27.203 16.4077L14.983 31.7203L14.4022 32.4481H15.3334H21.5556H21.7714L21.9059 32.2795L34.3504 16.6856L34.5749 16.4043L34.3487 16.1243L21.9043 0.718341Z" stroke="white" stroke-width="0.896474"/>
+										</svg>								
+									</a>
+								</div>
+							</div>
+
+							<div class="glide__slide">
+								<div class="news__item news__item--blue slider__item">
+									<div class="slider__title font--bold">
+										<span class="slider__number">2</span>Февраля 2020
+									</div>
+									<div class="slider__img">
+										<a href="#">
+											<img src="img/news//news1.jpg" alt="Photo">
+										</a>
+									</div>
+									<a href="#" class="slider__link flex flex--space-between flex--align-center">
+										<div class="slider__text font--bold">
+											Чемпионы  клуба 
+											Extra Vert в январе 2020
+										</div>
+										<svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.86068 0.71045L8.7264 0.551763H8.51852H2H1.0335L1.65784 1.28955L14.4513 16.4078L1.65611 31.7124L1.04101 32.4481H2H8.51852H8.72802L8.8624 32.2874L21.8994 16.6935L22.1413 16.4043L21.8977 16.1165L8.86068 0.71045Z" stroke="white" stroke-width="0.896474"/>
+											<path d="M21.9043 0.718341L21.7697 0.551763H21.5556H15.3334H14.3951L14.9847 1.28166L27.203 16.4077L14.983 31.7203L14.4022 32.4481H15.3334H21.5556H21.7714L21.9059 32.2795L34.3504 16.6856L34.5749 16.4043L34.3487 16.1243L21.9043 0.718341Z" stroke="white" stroke-width="0.896474"/>
+										</svg>								
+									</a>
+								</div>
+							</div>							
+
+						</div>
+
+					</div>
+
+					<div class="news__control" data-glide-el="controls">
+
+	
+							<button data-glide-dir="<" class="news__arrow slider__arrow news__arrow--prev">
+								<svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M17.8392 5.95977L21.799 9.91955L12.8894 18.8291L38.6281 18.8292L38.6281 24.7688L12.8894 24.7688L21.7989 33.6784L17.8391 37.6381L1.99999 21.799L17.8392 5.95977Z" stroke="#FC5857" stroke-width="1.5"/>
+								</svg>								
+							</button>
+	
+							<button data-glide-dir=">" class="news__arrow slider__arrow news__arrow--next">
+								<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M24.7509 3.95977L20.7911 7.91955L29.7007 16.8291L3.96198 16.8292L3.96198 22.7688L29.7008 22.7688L20.7912 31.6784L24.751 35.6381L40.5901 19.799L24.7509 3.95977Z" fill="#FC5857"/>
+								</svg>																
+							</button>
+	
+	
+					</div>
+
+				</div>				
+
+			</article>
+
+			<article class="stocks" id="stocks">
+
+				<h2 class="stocks__title title--base">Акции</h2>
+
+				<div class="stocks__wrapper">
+
+					<div class="stocks__slider slider glide">
+
+						<div class="slider__track glide__track" data-glide-el="track">
+
+							<div class="slider__slides glide__slides">
+
+								<div class="stocks__wrapp">
+									<div class="stocks__item slider__item glide__slide">
+										<img src="img/stoсks/banner.jpg" alt="Banner">
+									</div>
+								</div>
+	
+								<div class="stocks__wrapp">
+									<div class="stocks__item slider__item glide__slide">
+										<img src="img/stoсks/banner.jpg" alt="Banner">
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="stocks__control" data-glide-el="controls">
+							<button data-glide-dir="<" class="stocks__arrow slider__arrow stocks__arrow--prev">
+								<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18.7573 6.24261L22.9999 10.4852L13.4539 20.0312L41.0311 20.0312L41.0311 26.3952L13.4539 26.3952L22.9998 35.9411L18.7572 40.1837L1.78667 23.2132L18.7573 6.24261Z" stroke="#FC5857" stroke-width="1.35342"/>
+								</svg>														
+							</button>
+		
+							<button data-glide-dir=">" class="stocks__arrow slider__arrow stocks__arrow--next">
+								<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M27.2427 6.24261L23.0001 10.4852L32.546 20.0312L4.96882 20.0312L4.96882 26.3952L32.5461 26.3952L23.0001 35.9411L27.2427 40.1837L44.2133 23.2132L27.2427 6.24261Z" stroke="#FC5857" stroke-width="1.5"/>
+								</svg>																						
+							</button>
+						</div>
+						
+					</div>
+
+				</div>
+
+			</article>
+
+		</div>
+
+	</main>	
+
+	<footer class="footer footer--main" id="footer">
+
+		<div class="footer__wrapper flex flex--mobile-column">
+
+			<div class="footer__map">
+				<iframe class="footer__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.448633754987!2d104.20271189019317!3d52.25536259719511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da8239fce93a5f5%3A0xd9dee4f8b9aea260!2z0LEt0YAg0KDRj9Cx0LjQutC-0LLQsCwgOTYg0YHRgtGA0L7QtdC90LjQtSAxLCDQmNGA0LrRg9GC0YHQuiwg0JjRgNC60YPRgtGB0LrQsNGPINC-0LHQuy4sIDY2NDA0Mw!5e0!3m2!1sru!2sru!4v1581830438581!5m2!1sru!2sru" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+
+			<div class="footer__info">
+
+				<div class="footer__logo">
+					<object
+						type="image/svg+xml"
+						data="img/icons/logo.svg">
+						<img src="img/icons/logo.png" alt="Logo">
+					</object>
+				</div>
+
+				<div class="footer__address">
+					Г.ИРКУТСК<br>Б.РЯБИКОВА 96, СТР.1
+				</div>
+
+				<div class="footer__contacts contacts">
+
+					<div class="contacts__item flex font--bold flex--align-center">
+						<div class="contacts__icon">
+							<object
+								type="image/svg+xml"
+								data="img/icons/clock.svg">
+								<img src="img/icons/clock.png" alt="Logo">
+							</object>
+						</div>
+						<div class="contacts__text">
+							РЕЖИМ РАБОТЫ: ПН-ВС 09.00-23.00 
+						</div>
+					</div>
+
+					<div class="contacts__item flex font--bold flex--align-center">
+						<div class="contacts__icon">
+							<object
+								type="image/svg+xml"
+								data="img/icons/phone.svg">
+								<img src="img/icons/phone.png" alt="Logo">
+							</object>
+						</div>
+						<div class="contacts__text">
+							<a href="#" class="contacts__link">8(950)555-55-55</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="footer__links flex flex--column flex--align-start font--rubik">
+
+					<a href="#" class="footer__link link link--decorated-both border--red color--red">
+						INSTAGRAM					
+					</a>
+
+					<a href="#" class="footer__link link link--decorated-both border--blue color--blue">
+						FACEBOOK
+					</a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="footer__copyright flex flex--space-between font--rubik">
+			<div class="footer__copyright--name">
+				ExtraVert – 2020
+			</div>
+			<a href="#" class="footer__copyright--politics">
+				Политика конфиденциальности
+			</a>
+		</div>
+
+	</footer>
+
+	<div class="popup popup--contacts font--rubik" id="popup-contacts-form">
+		<div class="popup__wrapper">
+
+			<div class="popup__logo">
+				<object
+					type="image/svg+xml"
+					data="img/icons/logo.svg">
+					<img src="img/icons/logo.png" alt="Logo">
+				</object>
+			</div>
+			<div class="popup__title">
+				Укажите Ваш телефон
+			</div>
+
+			<div class="popup__text">
+				И наши специалисты свяжутся с вами в ближайшее время
+			</div>
+
+			<form class="popup__form form">
+				<div class="form__block form__block--name flex">
+					<input type="text" required name="name" class="form__input" placeholder="Введите имя">
+				</div>
+				<div class="form__block form__block--phone flex">
+					<input type="text" required name="phone" class="form__input" placeholder="Введите телефон">
+				</div>
+				<!-- <div class="form__privacy">
+					<input type="checkbox" required class="form__checkbox form__checkbox-privacy" name="privacy" id="privacy">
+					<a href="#" class="form__link">С условиями ознакомлен и согласен</a>
+				</div> -->
+				<button type="submit" class="form__button button button--blue font--montserrat">
+					Отправить
+				</button>
+			</form>
+
+		</div>
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
