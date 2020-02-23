@@ -270,29 +270,6 @@ b, strong {
 	}
 }
 
-.font {
-
-	&--bold {
-		font-weight: bold;
-	}
-
-	&--montserrat {
-		font-family: "montserrat", sans-serif;
-	}
-
-	&--rubik {
-		font-family: "rubik", sans-serif;
-	}
-
-	&--plus {
-		font-size: 2em;
-	}
-
-	&--minus {
-		font-size: 0.8em;
-	}
-}
-
 .burger {
 	display: inline-block;
 	height: 4px;
@@ -557,6 +534,33 @@ h1, h2, h3, h4, h5 {
 
 @include media-breakpoint-down(sm) {
 	
+}
+
+.font {
+
+	&--bold {
+		font-weight: bold;
+	}
+
+	&--montserrat {
+		font-family: "montserrat", sans-serif;
+	}
+
+	&--rubik {
+		font-family: "rubik", sans-serif;
+	}
+
+	&--plus {
+		font-size: 2em;
+	}
+
+	&--minus {
+		font-size: 0.8em;
+	}
+
+	&--play {
+		font-family: "play", sans-serif;
+	}
 }
 
 .main {

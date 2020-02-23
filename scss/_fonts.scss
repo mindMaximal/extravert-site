@@ -7,3 +7,6 @@
 @include font-face("montserrat", "../fonts/montserrat/montserrat-regular");
 @include font-face("montserrat", "../fonts/montserrat/montserrat-semibold", 600);
 @include font-face("montserrat", "../fonts/montserrat/montserrat-bold", bold);
+
+@include font-face("play", "../fonts/play/play");
+@include font-face("play", "../fonts/play/play-bold", bold);
