@@ -413,6 +413,10 @@ h1, h2, h3, h4, h5 {
 		&--base {
 			font-size: 1.875em;
 		}
+
+		&__logo {
+			max-width: 170px;
+		}
 	}
 }
 
@@ -421,6 +425,10 @@ h1, h2, h3, h4, h5 {
 
 		&--base {
 			font-size: 1.875em;
+		}
+
+		&__logo {
+			max-width: 104px;
 		}
 	}
 }
@@ -532,10 +540,6 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
-@include media-breakpoint-down(sm) {
-	
-}
-
 .font {
 
 	&--bold {
@@ -566,14 +570,6 @@ h1, h2, h3, h4, h5 {
 .main {
 	position: relative;
 	width: 100%;
-}
-
-@include media-breakpoint-down(md) {
-
-}
-
-@include media-breakpoint-down(sm) {
-	
 }
 
 .menu {
@@ -973,6 +969,38 @@ h1, h2, h3, h4, h5 {
 				}
 			}
 		}
+
+		&__offset {
+			display: none;
+		}
+
+		&--subpage {
+
+			.footer {
+
+				&__info {
+					padding-left: 32px;
+					padding-top: 50px;
+				}
+
+				&__map {
+					width: 65%;
+				}
+
+				&__copyright {
+					width: 65%;
+					margin-left: 35%;
+					padding: 20px 0;
+					text-align: left;
+					justify-content: flex-start;
+
+					&--politics {
+						font-weight: 300;
+						font-size: 0.875em;
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -1010,6 +1038,34 @@ h1, h2, h3, h4, h5 {
 					margin-top: 30px;
 					margin-bottom: 20px;
 					font-size: 1em;
+				}
+			}
+		}
+
+		&--subpage {
+
+			.footer {
+
+				&__map {
+					margin-top: 0px;
+					width: 100%;
+					height: 235px;
+				}
+
+				&__copyright {
+					width: 100%;
+					margin-left: 0;
+					justify-content: center;
+					text-align: center;
+				}
+
+				&__info {
+					padding: 50px 30px 0 30px;
+				}
+
+				&__contacts {
+					margin-top: 35px;
+					margin-bottom: 25px;
 				}
 			}
 		}
@@ -1253,6 +1309,18 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
+@include media-breakpoint-down(sm) {
+	.line {
+		
+		&__link {
+			font-size: 1em;
+
+			&::before {
+				height: 22px;
+			}
+		}
+	}
+}
 // @include media-breakpoint-down(md) {
 
 // }
