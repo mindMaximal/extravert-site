@@ -1806,7 +1806,6 @@
 
 .wave {
     padding: 20px 20px 20px 60px;
-    margin-bottom: 30px;
     position: relative;
 
     &::before {
@@ -1834,7 +1833,6 @@
     }
 
     &__links {
-        margin-top: 50px;
         text-align: center;
     }
 
@@ -1911,7 +1909,7 @@
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 100px;
-    padding-top: 60px;
+    padding-top: 10px;
     background: url('../img/form-contacts/trace-karting.jpg'), url('../img/form-contacts/background-karting.png');
     background-repeat: no-repeat;
     background-position: -10% center, 100% center;
@@ -2065,6 +2063,7 @@
 	.form-contacts {
         padding: 15px;
         margin-left: 0;
+        background-position: 90% -30%,-135% 94%;
 
 		&__title {
 			font-size: 1.875em;
