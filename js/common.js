@@ -332,6 +332,23 @@ function ready() {
                 }
             });
         });
+
+    }
+
+    if(document.querySelector('.price-mobile')) {
+
+        document.querySelectorAll('.price-mobile__subtitle').forEach(elem => {
+            elem.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                if (this.closest('.price-mobile__block').classList.contains('price-mobile__block--active')) {
+                    this.closest('.price-mobile__block').classList.remove('price-mobile__block--active');
+                } else {
+                    this.closest('.price-mobile__block').classList.add('price-mobile__block--active')
+                }
+            });
+        });
+
     }
 
     //Mobile menu
