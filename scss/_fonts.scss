@@ -10,3 +10,7 @@
 
 @include font-face("play", "../fonts/play/play");
 @include font-face("play", "../fonts/play/play-bold", bold);
+
+@include font-face("roboto", "../fonts/roboto/roboto-regular");
+@include font-face("roboto", "../fonts/roboto/roboto-medium", 500);
+@include font-face("roboto", "../fonts/roboto/roboto-bold", bold);

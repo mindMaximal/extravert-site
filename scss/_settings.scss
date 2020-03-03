@@ -64,6 +64,10 @@ body {
 	&--blue {
 		border-color: #3193E4;
 	}
+
+	&--white {
+		border-color: $white
+	}
 }
 
 .color {
@@ -82,6 +86,18 @@ body {
 
 	&--blue {
 		color: #3193E4;
+	}
+
+	&--orange {
+		color: #E96149;
+	}
+
+	&--karting-blue {
+		color: #2973E2;
+	}
+
+	&--karting-white {
+		color: $white
 	}
 }
 
@@ -204,6 +220,39 @@ b, strong {
 			color: #136DB5;
 		}
 	}
+
+	&--green {
+		background-color: #29B26B;
+		font-size: 0.875em;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 0.03em;	
+		padding: 20px 45px;
+		color: $white;
+		text-transform: uppercase;
+	}
+
+	&--karting-blue {
+		display: inline-block;
+		text-align: center;
+		text-transform: uppercase;
+		border-radius: 3px;
+		background-color: #2973E2;
+		border: 2px solid #2973E2;
+		font-size: 0.75em;
+		font-weight: bold;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: $white;
+		padding: 15px 30px;
+		transition: 0.2s;
+
+		&:hover,
+		&:focus {
+			background-color: transparent;
+			color: #2973E2;
+		}
+	}
 }
 
 .button {
@@ -266,6 +315,59 @@ b, strong {
 			height: 16px;
 			transform: translateY(-50%);
 			left: 15px;
+		}
+	}
+
+	&--crop {
+		border: 2px solid #29B26B;
+		background-color: transparent;
+		transition: 0.2s;
+		color: $white;
+		font-weight: bold;
+		font-size: 0.875em;
+		padding: 20px 40px 20px 55px;
+		border-radius: 0;
+		//clip-path: polygon(0% 0%, 100% 0%, 100% 66%, 66% 100%, 0 100%, 0 0);
+		position: relative;
+
+		&::before {
+			content: url('../img/icons/arrows-before--green.svg');
+			position: absolute;
+			left: 20px;
+			top: 50%;
+			height: 15px;
+			transform: translateY(-50%);
+		}
+
+		&:hover,
+		&:focus {
+			background-color: #29B26B;
+		}
+	}
+
+	&--karting-blue {
+		background-color: #2973E2;
+		border: 2px solid #2973E2;
+		color: $white;
+
+		&:hover,
+		&:focus {
+			background-color: transparent;
+			color: #2973E2;
+		}
+	}
+
+	&--bordered {
+		background-color: transparent;
+
+		&.button--karting-blue {
+			color: #2973E2;
+
+			&:hover,
+			&:focus {
+				background-color: #2973E2;
+				color: $white;
+			}
 		}
 	}
 }
@@ -370,7 +472,7 @@ b, strong {
 					order: 2;
 					text-align: center;
 
-					object {
+					&--mobile {
 						max-width: 115px;
 						margin: auto;
 					}
@@ -565,6 +667,10 @@ h1, h2, h3, h4, h5 {
 	&--play {
 		font-family: "play", sans-serif;
 	}
+
+	&--roboto {
+		font-family: "roboto", sans-serif;
+	}
 }
 
 .main {
@@ -601,6 +707,66 @@ h1, h2, h3, h4, h5 {
 			&__item {
 				display: flex;
 				align-items: center;
+			}
+		}
+	}
+
+	&--karting {
+		background-color: #29B26B;
+
+		.menu {
+
+			&__logo {
+				background-color: #0D1119;
+				padding: 30px 52px 40px 0;
+			}
+
+			&__sublogo {
+				position: absolute;
+				top: 9px;
+				right: 13px;
+			}
+
+			&__link {
+				font-size: 1em;
+				position: relative;
+				padding-left: 30px;
+
+				&::before {
+					content: url('../img/icons/menu-arrow.svg');
+					position: absolute;
+					left: 0px;
+					top: 50%;
+					transform: translateY(-50%);
+					transition: 0.2s;
+				}
+				
+				&::after {
+					display: none;
+				}
+
+				&:hover,
+				&:focus {
+
+					&::before {
+						left: 5px;
+					}
+				}
+
+				&--call {
+
+					&::after {
+						display: block;
+					}
+
+					&:hover,
+					&:focus {
+
+						&::after {
+							width: 100%;
+						}
+					}
+				}
 			}
 		}
 	}
