@@ -108,7 +108,7 @@
 				</div>
 
 				<header class="karting-home__header flex flex--space-between flex--align-start">
-					<button class="button button--crop karting-home__button">ЗАБРОНИРОВАТЬ</button>
+					<button class="button button--crop karting-home__button button-trigger">ЗАБРОНИРОВАТЬ</button>
 					<div class="karting-home__contacts flex">
 						<div class="karting-home__address font--bold  hidden--tablet hidden--mobile">
 							Синюшина гора 96, стр.1 
@@ -234,7 +234,7 @@
 				</div>
 
 				<div class="security__links">
-					<a href="#" class="security__link link link--green">
+					<a href="#popup-contacts-form" class="security__link popup-trigger link link--green">
 						ИСПЫТАТЬ ТЕХНИКУ
 					</a>
 				</div>
@@ -532,7 +532,7 @@
 								<a href="" class="booking-card__link font--bold booking-card__link--details">ПОДРОБНЕЕ </a>
 							</div>
 							<div class="booking-card__button">
-								<a href="" class="booking-card__link booking-card__link--booking font--bold">ЗАБРОНИРОВАТЬ</a>
+								<a href="#popup-contacts-form" class="booking-card__link popup-trigger booking-card__link--booking font--bold">ЗАБРОНИРОВАТЬ</a>
 							</div>
 						</div>
 		
@@ -561,7 +561,7 @@
 								<a href="" class="booking-card__link font--bold booking-card__link--details">ПОДРОБНЕЕ </a>
 							</div>
 							<div class="booking-card__button">
-								<a href="" class="booking-card__link booking-card__link--booking font--bold">ЗАБРОНИРОВАТЬ</a>
+								<a href="#popup-contacts-form" class="booking-card__link popup-trigger booking-card__link--booking font--bold">ЗАБРОНИРОВАТЬ</a>
 							</div>
 						</div>
 		
@@ -591,7 +591,7 @@
 								<a href="" class="booking-card__link font--bold booking-card__link--details">ПОДРОБНЕЕ </a>
 							</div>
 							<div class="booking-card__button">
-								<a href="" class="booking-card__link booking-card__link--booking font--bold">ЗАБРОНИРОВАТЬ</a>
+								<a href="#popup-contacts-form" class="booking-card__link popup-trigger booking-card__link--booking font--bold">ЗАБРОНИРОВАТЬ</a>
 							</div>
 						</div>
 					</div>
@@ -675,7 +675,7 @@
 											450 ₽
 										</div>
 									</div>
-									<button class="price-mobile__button button button--green">ЗАБРОНИРОВАТЬ</button>
+									<button class="price-mobile__button button button--green button-trigger">ЗАБРОНИРОВАТЬ</button>
 								</div>
 							</div>
 							<div class="price-mobile__block">
@@ -702,7 +702,7 @@
 											450 ₽
 										</div>
 									</div>
-									<button class="price-mobile__button button button--green">ЗАБРОНИРОВАТЬ</button>
+									<button class="price-mobile__button button button--green button-trigger">ЗАБРОНИРОВАТЬ</button>
 								</div>
 							</div>
 							<div class="price-mobile__block">
@@ -729,7 +729,7 @@
 											450 ₽
 										</div>
 									</div>
-									<button class="price-mobile__button button button--green">ЗАБРОНИРОВАТЬ</button>
+									<button class="price-mobile__button button button--green button-trigger">ЗАБРОНИРОВАТЬ</button>
 								</div>
 							</div>
 							<div class="price-mobile__block ">
@@ -756,7 +756,7 @@
 											450 ₽
 										</div>
 									</div>
-									<button class="price-mobile__button button button--green">ЗАБРОНИРОВАТЬ</button>
+									<button class="price-mobile__button button button--green button-trigger">ЗАБРОНИРОВАТЬ</button>
 								</div>
 							</div>
 							<div class="price-mobile__block color--blue">
@@ -783,7 +783,7 @@
 											450 ₽
 										</div>
 									</div>
-									<button class="price-mobile__button button button--green">ЗАБРОНИРОВАТЬ</button>
+									<button class="price-mobile__button button button--green button-trigger">ЗАБРОНИРОВАТЬ</button>
 								</div>
 							</div>
 						</div>
@@ -791,13 +791,13 @@
 	
 					<div class="price__links flex flex--space-between flex--align-center">
 	
-						<button class="button button--green hidden--mobile">ЗАБРОНИРОВАТЬ</button>
+						<button class="button button--green hidden--mobile button-trigger">ЗАБРОНИРОВАТЬ</button>
 	
 						<div class="price__info flex flex--align-center flex--mobile-column">
 							<div class="price__necessarily">Обязательно к изучению:</div>
 							<div class="flex flex--tablet-column">
-								<button class="button price__button button--karting-blue button--bordered">ПРАВИЛА ПОВЕДЕНИЯ</button>
-								<button class="button price__button button--karting-blue button--bordered">ТЕХНИКА БЕЗОПАСНОСТИ</button>
+								<a href="rules.html" target="_blank" class="button price__button button--karting-blue button--bordered">ПРАВИЛА ПОВЕДЕНИЯ</a>
+								<a href="safety.html" target="_blank" class="button price__button button--karting-blue button--bordered">ТЕХНИКА БЕЗОПАСНОСТИ</a>
 							</div>
 						</div>
 	
@@ -822,7 +822,7 @@
 							<div class="school__item bullet--blue">Подробности и запись вы можете уточнить у наших менеджеров.</div>
 						</div>
 
-						<a href="#" class="school__link link link--karting-blue hidden--tablet hidden--mobile">ПОДРОБНЕЕ</a>
+						<a href="#popup-contacts-form" class="school__link link popup-trigger link--karting-blue hidden--tablet hidden--mobile">ПОДРОБНЕЕ</a>
 
 					</div>
 
@@ -1181,7 +1181,7 @@
 
 	<div class="popup popup--contacts" id="popup-contacts-form">
 		<div class="popup__wrapper">
-
+			<button class="popup__close">&times;</button>
 			<div class="popup__logo">
 				<object
 					type="image/svg+xml"

@@ -181,6 +181,36 @@
 		left: 30px;
 		z-index: 2;
 	}
+
+	//fix
+
+	&__img {
+		transition: 0.4s;
+	}
+
+	&__link {
+		max-width: 70%;
+	}
+
+	&__item {
+		overflow: hidden;
+
+		&::after {
+			transition: 0.4s;
+		}
+
+		&:hover {
+
+			&::after {
+				opacity: 0.3;
+			}
+
+			.services__img {
+				transform: scale(1.1);
+			}
+		}
+	}
+
 }
 
 @include media-breakpoint-down(md) {

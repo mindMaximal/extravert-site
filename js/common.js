@@ -351,6 +351,17 @@ function ready() {
 
     }
 
+    if(document.querySelector('.button-trigger')) {
+
+        document.querySelectorAll('.button-trigger').forEach(elem => {
+            elem.addEventListener('click', function (e) {
+                e.preventDefault();
+              
+                popupContacts.open('#popup-contacts-form');
+            });
+        });
+    }
+
     //Mobile menu
     var menu = document.querySelector('.menu');
     var menuActiveClass = 'menu--active';

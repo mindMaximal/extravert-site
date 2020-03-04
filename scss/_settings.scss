@@ -257,6 +257,7 @@ b, strong {
 
 .button {
 	cursor: pointer;
+	text-decoration: none;
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
@@ -1328,6 +1329,18 @@ h1, h2, h3, h4, h5 {
 			opacity: 1;
 		}
 	}
+
+	&__close {
+		border: none;
+		background-color: #ed2026;
+		font-size: 1.5em;
+		color: $white;
+		position: absolute;
+		right: 0;
+		padding: 5px 10px;
+		top: 0;
+		cursor: pointer;
+	}
 	
 	&__wrapper {
 		opacity: 0;
@@ -1440,6 +1453,24 @@ h1, h2, h3, h4, h5 {
 			margin-top: 5px;
 			padding: 15px 65px;
 			font-size: 0.8125em;
+		}
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.popup {
+
+		&__title {
+			margin-top: 15px;
+			font-size: 1.5em;
+		}
+
+		&__text {
+			font-size: 1em;
+		}
+
+		&__wrapper {
+			padding: 30px 25px 40px 25px;
 		}
 	}
 }

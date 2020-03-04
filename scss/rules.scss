@@ -1,0 +1,225 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+@import "settings";
+
+.rules {
+	padding: 70px 100px;
+	color: #000000;
+	background: url('../img/rules/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__breadcrumb {
+		font-weight: 500;
+		font-size: 0.9em;
+		line-height: 1.5;
+		color: #231F20;
+		text-transform: uppercase;
+	}
+
+	&__title {
+		font-size: 1.875em;
+		font-weight: 600;
+		line-height: 1.5;
+		margin-top: 45px;
+		margin-bottom: 40px;
+	}
+
+	&__item {
+		margin-bottom: 40px;
+	}
+
+	&__subtitle {
+		color: #1D1A15;
+		font-size: 1.1em;
+		font-weight: 600;
+		margin-bottom: 20px;
+		position: relative;
+		display: inline-block;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 2px;
+			background: #1D1A15;
+		}
+	}
+
+	&__elem {
+		font-weight: 500;
+		font-size: 1em;
+		line-height: 2;
+		line-height: 2;
+		margin-bottom: 5px;
+
+		&--bullet {
+			padding-left: 16px;
+			position: relative;
+			margin-bottom: 15px;
+
+			&::before {
+				content: url('../img/rules/bullet.svg');
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+
+	&__num {
+		color: #F7603F;
+	}
+
+	&__subnum {
+		color: #2973E2;
+	}
+
+	&__text {
+		margin: 15px 0;
+		font-size: 1em;
+		font-weight: 600;
+		line-height: 1.3;
+
+		&:last-of-type {
+			margin-bottom: 	0;
+		}
+
+		&--warn {
+			font-weight: 500;
+			line-height: 1.5;
+			font-size: 1em;
+		}
+	}
+
+	&__img {
+		flex-shrink: 0;
+		margin-right: 7px;
+		height: 36px;
+	}
+
+	&__warn {
+		align-items: center;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	&__crashprice {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+}
+
+@include media-breakpoint-down(md) {
+    .rules {
+		padding: 70px 32px;
+
+		&__breadcrumb {
+			font-size: 0.875em;
+		}
+
+		&__title {
+			margin-top: 30px;
+			font-size: 1.625em;
+			margin-bottom: 30px;
+		}
+
+		&__subtitle {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.rules {
+		padding: 25px 15px;
+
+		&__breadcrumb {
+			font-size: 0.8125em;
+		}
+
+		&__title {
+			margin-top: 15px;
+			font-size: 1.25em;
+			margin-bottom: 25px;
+		}
+
+		&__subtitle {
+			margin-bottom: 15px;
+		}
+
+		&__elem {
+			font-size: 0.9em;
+		}
+		
+		&__text {
+			font-size: 0.875em;
+		}
+
+		&__item {
+			margin-bottom: 20px;
+		}
+
+		&__bold {
+			font-weight: 600;
+		}
+
+		&__warn {
+			align-items: flex-start;
+		}
+
+		&__img {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+.crashprice {
+	color: #000000;
+
+	&__title {
+		font-weight: 600;
+		line-height: 1.5;
+		font-size: 1.375em;
+		margin-bottom: 20px;
+		max-width: 900px;
+	}
+
+	&__subtitle {
+		color: #1D1A15;
+		font-size: 1.1em;
+		font-weight: 600;
+		margin-bottom: 20px;
+		position: relative;
+		display: inline-block;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 2px;
+			background: #1D1A15;
+		}
+	}
+
+	&__col {
+		margin-right: 60px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	&__elem {
+		font-size: 1em;
+		line-height: 2;
+		font-weight: 500;
+	}
+}
